@@ -15,8 +15,8 @@
 </head>
 <body>
     <header id="header" >
-        <div class="container-md  d-flex  justify-content-between align-items-center">
-            <section>
+        <div class="container-md  ">
+            <!-- <section>
                 <h1>Start bootstrap</h1>
             </section>
 
@@ -33,10 +33,47 @@
             <section class="button d-lg-none d-md-block ">
                 <i class="fa-solid fa-bars"></i>
 
-            </section>
+            </section> -->
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><h1>Start bootstrap</h1></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-grow-0 bianco">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Contact
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true"></a>
+                      </li>
+                    </ul>
+                   
+                  </div>
+                </div>
+              </nav>
+            
+           
 
         </div>
     </header>
+
+
 
     <main>
 
@@ -178,7 +215,7 @@
 
         </section>
 
-        <section class="container-md ">
+        <section class="container ">
             <div id="contact-me" class="titolo-contact-me text-center py-5">
 
                 <h3>CONTACT ME</h3>
@@ -196,24 +233,24 @@
                 </div>
 
                 <form class="text-start">
-                    <div class="mb-3 ">
-                      <label for="exampleInputEmail1" class="form-label">Name</label>
-                      <input type="text" name="nome" class="form-control">
+                    <div class="pb-1 ">
+                      <label for="exampleInputName" class="form-label">Name</label>
+                      <input type="text" name="nome" class="form-control border-bottom">
                     </div>
 
-                    <div class="mb-3 ">
+                    <div class="pb-1 ">
                         <label for="exampleInputEmail1" class="form-label">Email Address</label>
-                        <input type="email" name="Email Address" class="form-control">
+                        <input type="email" name="Email Address" class="form-control border-bottom">
                     </div>
                     
-                    <div class="mb-3 ">
-                        <label for="exampleInputEmail1" class="form-label">Phone Number</label>
-                        <input type="text" name="Phone Number" class="form-control">
+                    <div class="pb-1 ">
+                        <label for="exampleInputPhone-Number" class="form-label">Phone Number</label>
+                        <input type="text" name="Phone Number" class="form-control border-bottom">
                     </div>
 
-                    <div class="mb-3 ">
-                        <label for="exampleInputEmail1" class="form-label">Message</label>
-                        <input type="text" name="Message" class="form-control">
+                    <div class="pb-5 ">
+                        <label for="exampleInputMessage" class="form-label">Message</label>
+                        <input type="text" name="Message" class="form-control border-bottom">
                     </div>
                     
                     <button type="submit" class="btn button-contact">Send</button>
