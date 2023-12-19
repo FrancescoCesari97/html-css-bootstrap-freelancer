@@ -1,5 +1,8 @@
 
 
+
+/* HEADER */
+
 #header{
     background-color: #2c3e50;
     color: aliceblue;
@@ -17,17 +20,27 @@
 .menu a{
     text-decoration: none;
     color: aliceblue;
+    padding: 5px;
 }
+
+/* HERO SECTION */
 
 #hero{
     background-color: #1abc9c;
     color: aliceblue;
 }
 
+
+.titolo-hero h2{
+   font-size: 2.8rem;
+   font-weight: 600;
+}
+
+
 #hero a{
     text-decoration: none;
     color: aliceblue;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .linea-bianca{
@@ -42,6 +55,21 @@
     background-color: black;
 }
 
+/* PORTFOLIO */
+
+.titolo-portfolio h3{
+    font-size: 2.5rem;
+   font-weight: 600;
+}
+
+/* ABOUT US  */
+
+.titolo-about h3{
+    font-size: 2.5rem;
+   font-weight: 600;
+}
+
+
 #about{
     background-color: #1abc9c;
     color: aliceblue;
@@ -51,6 +79,19 @@
     list-style: none;
 }
 
+/* CONTACT ME */
+
+.titolo-contact-me h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.button-contact{
+    background-color: #1abc9c;
+}
+
+/* FOOTER */
+
 #footer-first{
     background-color: #3a546d;
     color: aliceblue;
@@ -59,4 +100,16 @@
 #footer-second{
     background-color:#2c3e50 ;
     color: aliceblue;
+}
+
+.bordo-simbolo{
+    width: 50px;
+    height:50px;
+    border: 2px solid aliceblue;
+    border-radius: 50%;
+
+}
+
+.bordo-simbolo i{
+    line-height: 45px;
 }
